@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #1b1a1a;
+    color: #1e1d1d;
+    padding: 20px;
+}
+/*properties effect mulitple tags*/
+h1, p {
+    color: #c6daec;
+}
+
+.image-container {
+    margin: 20px auto;
+    width: 420px;
+    padding: 10px;
+    background: rgb(113, 111, 111);
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Apply filters to all images */
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+/* Image hover effect */
+img:hover {
+    filter: brightness(90%) 
+    contrast(110%) 
+    saturate(120%);
+}
+
