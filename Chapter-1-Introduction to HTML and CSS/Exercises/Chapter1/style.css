@@ -1,0 +1,35 @@
+/* sets the default font and background for the page */
+body {
+    font-family: Arial, sans-serif; /* applies a clean and readable font */
+    background-color: #1e1e2e; /* dark background for a modern look */
+    color: #dcdcdc; /* light text color for contrast */
+    text-align: center; /* centers all text in the body */
+    padding: 40px; /* adds spacing around the content */
+}
+
+/* styles the main and secondary headings */
+h1, h2 {
+    color: #ffcc00; /* yellow color for emphasis */
+    margin-bottom: 15px; /* adds spacing below headings */
+}
+
+/* styles unordered and ordered lists */
+ul, ol {
+    display: inline-block; /* keeps lists from stretching across the screen */
+    text-align: left; /* aligns list items to the left for better readability */
+    background: #2e2e3e; /* dark background for contrast */
+    padding: 15px; /* adds spacing inside the list container */
+    border-radius: 5px; /* rounds the corners for a softer look */
+}
+
+/* styles code blocks */
+pre {
+    background-color: #2e2e3e; /* dark background for better readability */
+    padding: 15px; /* adds spacing around code blocks */
+    border-radius: 5px; /* smooth rounded corners */
+}
+
+/* styles inline code elements */
+code {
+    color: #ffcc00; /* yellow text color to highlight code */
+}
