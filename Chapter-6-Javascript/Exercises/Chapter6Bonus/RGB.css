@@ -1,0 +1,74 @@
+ /* general page styling */
+ body {
+    font-family: Arial, sans-serif;
+    background-color: black; /* background color */
+    color: white; /* text color */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+/* rgb value display */
+#rgbValue {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+
+/* result display */
+#result {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
+/* replay button hover effect */
+#replay:hover {
+    background-color: grey;
+    color: white;
+}
+
+
+/* main game container */
+.game-container {
+    background-color: #333; /* dark grey background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.2);
+    width: 300px;
+}
+
+
+/* replay button */
+#replay {
+    margin-top: 15px;
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* buttons for color choices */
+.color-option {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+/* button hover effect */
+.color-option:hover {
+    transform: scale(1.1);
+}
+
