@@ -1,0 +1,114 @@
+/* sets the default font and removes margin and padding and adds text color */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+/* style for the navigation links inside the list items */
+nav ul li {
+    display: inline; /* displays items in a row */
+    margin: 0 15px; /* adds spacing between nav links */
+}
+
+/* styles the header section */
+header {
+    background-color: #17072b; 
+    color: white; 
+    text-align: center; /* centers text */
+    padding: 20px; /* adds padding for spacing */
+    font-family: Tahoma, sans-serif;
+}
+
+/* removes underline from navigation links and sets text color */
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* styles the main heading link */
+header h1 a {
+    color: white;
+    text-decoration: none;
+}
+
+/* styles the main content area */
+main {
+    display: flex; /* arranges content side by side */
+    justify-content: space-between; /* spaces elements evenly */
+    padding: 20px; /* adds padding */
+}
+
+/* removes bullet points from navigation menu */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* styles the welcome heading link */
+.welcome h2 a {
+    text-decoration: none;
+    color: #17072b; 
+}
+
+/* styles the sidebar */
+.sidebar {
+    background-color: #172d67; 
+    color: white;
+    padding: 20px;
+    width: 30%; 
+}
+
+/* styles the image in the welcome section */
+.welcome img {
+    width: 100%; 
+    max-width: 500px; /* sets a max width */
+    height: auto; 
+    margin-top: 15px; /* adds space above */
+}
+
+/* styles the lineup heading */
+.sidebar h2 a {
+    color: white;
+}
+
+/* removes bullet points from the sidebar list */
+.sidebar ul {
+    padding: 0;
+    list-style: none;
+}
+
+/* adds spacing between list items in the sidebar */
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+/* styles the welcome section */
+.welcome {
+    background-color: white;
+    padding: 20px;
+    width: 65%; 
+}
+
+/* styles images in the sidebar */
+.sidebar .images img {
+    width: 48%; /* makes images take equal width */
+    height: auto;
+}
+
+/* arranges images side by side in the sidebar */
+.sidebar .images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* styles the footer */
+footer {
+    background-color: #8c15e9; 
+    color: white;
+    text-align: center; /* centers text */
+    padding: 10px;
+    margin-top: 20px;
+}
