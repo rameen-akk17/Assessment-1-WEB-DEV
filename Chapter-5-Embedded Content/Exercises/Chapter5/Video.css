@@ -1,0 +1,23 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* xenters horizontally */
+    align-items: center; /* centers vertically */
+    background-color: black; /* optional: makes it look cleaner */
+}
+
+.vid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+video {
+    max-width: 90vw; /* Emakes sure it doesn't exceed screen width */
+    max-height: 90vh; /* makes sure it doesn't exceed screen height */
+}
