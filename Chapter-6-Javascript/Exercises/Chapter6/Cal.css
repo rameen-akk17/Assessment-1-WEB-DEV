@@ -1,0 +1,62 @@
+body {
+     /* resets default margins and centers content */
+    font-family: Arial, sans-serif;
+    background-color: grey; /* page background */
+    color: black; /* text color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* container box styling */
+.calculator {
+    background-color: rgb(95, 22, 22); /* box background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* input fields */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: white;
+}
+
+/* changes border when input is focused */
+input:focus {
+    border-color: grey;
+    outline: none;
+}
+
+/* button styling */
+button {
+    background-color: black;
+    color: rgb(159, 70, 70);
+    border: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+/* hover effect for button */
+button:hover {
+    background-color: grey;
+    color: black;
+}
+
+/* result text */
+#totalCost {
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: bold;
+}

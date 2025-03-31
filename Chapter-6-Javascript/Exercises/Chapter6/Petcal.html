@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Cal.css">
+    <title>Petrol Calculator</title>
+
+</head>
+<body>
+
+    <div class="calculator">
+        <h2>Petrol Calculator</h2>
+        
+        <!-- input for petrol price per liter, default set to 1.72 -->
+        <label for="pricePerLiter">Price per Liter (in $):</label>
+        <input type="number" id="pricePerLiter" value="1.72" step="0.01">
+        
+        <!-- input for liters purchased, default set to 0 -->
+        <label for="liters">Liters Purchased:</label>
+        <input type="number" id="liters" value="0">
+
+        <!-- button to calculate total price -->
+        <button onclick="calculateTotal()">Calculate</button>
+
+        <!-- displays total cost -->
+        <p id="totalCost">Total Cost: $0.00</p>
+    </div>
+
+    <script>
+        function calculateTotal() {
+            // get input values
+            let price = parseFloat(document.getElementById("pricePerLiter").value);
+            let liters = parseFloat(document.getElementById("liters").value);
+
+            // calculate total cost
+            let total = price * liters;
+
+            // display result
+            document.getElementById("totalCost").innerText = "Total Cost: $" + total.toFixed(2);
+        }
+    </script>
+
+</body>
+</html>
